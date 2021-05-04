@@ -67,7 +67,7 @@ img {
 @media (max-width: 1000px) {
   .wrapper {
     border: 11px solid white;
-    margin: 1.7rem;
+    margin: 1.8rem;
     padding: 0;
   }
   .user {
@@ -89,7 +89,7 @@ img {
     font-size: 2.8rem;
   }
   h3 {
-    padding: 1.5rem 1rem;
-    font-size: 1.1rem;
+    padding: 2.3rem 1.2rem 1.2rem 1.2rem;
+    font-size: 1.2rem;
   }
 }
