@@ -66,25 +66,31 @@ img {
 }
 @media (max-width: 1336px) {
   .wrapper {
+    border: 10px solid white;
+
+    margin: 2rem;
     padding: 0;
   }
   .user {
     margin: 0;
     border-radius: 0;
+    height: 27vh;
+    padding-bottom: 0.5rem;
   }
   img {
-    margin: auto;
+    height: 160px;
   }
   .notification {
-    padding-top: 5rem;
-    margin-left: 3rem;
-    margin-right: 4rem;
+    padding-top: 3.5rem;
+    margin-left: 0;
+    /* margin-right: 4rem; */
   }
   h1,
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   h3 {
-    padding: 2rem;
+    padding: 1rem;
+    font-size: 0.8rem;
   }
 }
