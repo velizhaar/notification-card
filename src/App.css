@@ -5,7 +5,6 @@
 }
 .container {
   background: linear-gradient(rgb(0, 254, 208), rgb(106, 221, 124));
-  background-attachment: fixed;
   text-align: center;
   bottom: 0;
   top: 0;
@@ -64,21 +63,21 @@ img {
   height: 270px;
   margin: auto;
 }
-@media (max-width: 1336px) {
+@media (max-width: 1000px) {
   .wrapper {
-    border: 8px solid white;
-    border-radius: 20px;
+    border: 11px solid white;
+    /* border-radius: 20px; */
     margin: 1.7rem;
     padding: 0;
   }
   .user {
     margin: 0;
     border-radius: 0;
-    height: 26vh;
+    height: 38vh;
     padding-bottom: 0.4rem;
   }
   img {
-    height: 160px;
+    height: 210px;
   }
   .notification {
     padding-top: 3.5rem;
@@ -86,10 +85,10 @@ img {
   }
   h1,
   h2 {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
   h3 {
-    padding: 1rem;
-    font-size: 0.95rem;
+    padding: 2rem 1rem;
+    font-size: 1.1rem;
   }
 }
