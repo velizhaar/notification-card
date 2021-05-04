@@ -5,6 +5,7 @@
 }
 .container {
   background: linear-gradient(rgb(0, 254, 208), rgb(106, 221, 124));
+  background-attachment: fixed;
   text-align: center;
   bottom: 0;
   top: 0;
@@ -54,8 +55,8 @@ h3 {
   height: 48vh;
   width: 88vh;
   border-bottom-left-radius: 35px;
-  margin-top: -4.5rem;
-  margin-right: -4.5rem;
+  margin-top: -4.6rem;
+  margin-right: -4.6rem;
   display: flex;
   justify-content: center;
 }
@@ -66,29 +67,29 @@ img {
 @media (max-width: 1000px) {
   .wrapper {
     border: 11px solid white;
-    /* border-radius: 20px; */
     margin: 1.7rem;
     padding: 0;
   }
   .user {
+    border-radius: 10px;
     margin: 0;
     border-radius: 0;
-    height: 38vh;
-    padding-bottom: 0.4rem;
+    height: 32vh;
+    padding-bottom: 0.5rem;
   }
   img {
-    height: 210px;
+    height: 180px;
   }
   .notification {
-    padding-top: 3.5rem;
-    margin: 0 1.5rem;
+    padding-top: 4rem;
+    margin: 0 2.8rem;
   }
   h1,
   h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   h3 {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     font-size: 1.1rem;
   }
 }
