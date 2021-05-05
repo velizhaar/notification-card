@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/notification-card/static/css/main.2d091ee9.chunk.css",
+    "main.js": "/notification-card/static/js/main.77648ac7.chunk.js",
+    "main.js.map": "/notification-card/static/js/main.77648ac7.chunk.js.map",
+    "runtime-main.js": "/notification-card/static/js/runtime-main.f14a6238.js",
+    "runtime-main.js.map": "/notification-card/static/js/runtime-main.f14a6238.js.map",
+    "static/js/2.1fd5ec8f.chunk.js": "/notification-card/static/js/2.1fd5ec8f.chunk.js",
+    "static/js/2.1fd5ec8f.chunk.js.map": "/notification-card/static/js/2.1fd5ec8f.chunk.js.map",
+    "static/js/3.02df3437.chunk.js": "/notification-card/static/js/3.02df3437.chunk.js",
+    "static/js/3.02df3437.chunk.js.map": "/notification-card/static/js/3.02df3437.chunk.js.map",
+    "index.html": "/notification-card/index.html",
+    "static/css/main.2d091ee9.chunk.css.map": "/notification-card/static/css/main.2d091ee9.chunk.css.map",
+    "static/js/2.1fd5ec8f.chunk.js.LICENSE.txt": "/notification-card/static/js/2.1fd5ec8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f14a6238.js",
+    "static/js/2.1fd5ec8f.chunk.js",
+    "static/css/main.2d091ee9.chunk.css",
+    "static/js/main.77648ac7.chunk.js"
+  ]
+}
