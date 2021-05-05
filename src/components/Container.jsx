@@ -30,12 +30,7 @@ export default function Container() {
             eaque labore eum repellendus. Provident corrupti soluta sunt sed
             nulla eius deleniti aliquid dignissimos in at necessitatibus culpa
             tempore assumenda, amet perspiciatis earum voluptatibus? Itaque
-            numquam molestiae iure maiores. Minima amet sapiente perspiciatis,
-            tenetur voluptatem temporibus voluptate iure deserunt quas iusto
-            vitae incidunt ab fuga beatae autem nihil aliquid blanditiis, fugit
-            dignissimos ratione fugiat alias reiciendis. Quia eum ipsam
-            asperiores minus laudantium ea eveniet ex earum, recusandae suscipit
-            ducimus eius placeat repellat, molestiae fuga.
+            numquam molestiae iure maiores.
           </h3>
         </div>
       </div>

@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
 .container {
   background: linear-gradient(rgb(0, 254, 208), rgb(106, 221, 124));
@@ -15,11 +14,13 @@
   overflow: auto;
 }
 .wrapper {
-  margin: 3.5rem;
-  min-height: 70vh;
-  border: 18px solid white;
   border-radius: 35px;
-  padding: 4.5rem;
+  border: 11px solid white;
+  margin: 1.8rem;
+  padding: 0;
+  min-height: 70vh;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 .account {
   display: flex;
@@ -27,69 +28,65 @@
   flex-wrap: wrap-reverse;
 }
 .notification {
-  margin-left: 6rem;
-  max-width: 50vh;
-  text-align: center;
+  margin: 0 auto;
 }
 
 h1,
-h2,
-h3 {
-  color: white;
-}
-h1 {
-  font-size: 6.5rem;
-  margin-top: -1.5rem;
-}
 h2 {
-  padding-top: 0.7rem;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
 }
+
 h3 {
-  font-size: 1.2rem;
   text-align: left;
-  padding-top: 4rem;
+  padding: 1.5rem 1.2rem;
+  font-size: 1rem;
 }
+
 .user {
+  border-radius: 10px;
+  border-radius: 0;
+  width: 85vh;
+  height: 33vh;
+  margin-bottom: 1.8rem;
   background: white;
-  height: 48vh;
-  width: 88vh;
-  border-bottom-left-radius: 35px;
-  margin-top: -4.6rem;
-  margin-right: -4.6rem;
+  align-content: start;
   display: flex;
   justify-content: center;
 }
 img {
-  height: 270px;
   margin: auto;
+  height: 25vh;
 }
-@media (max-width: 1000px) {
+@media (min-width: 925px) {
+  .account {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 0.7fr auto;
+  }
   .wrapper {
-    border: 11px solid white;
-    margin: 1.8rem;
-    padding: 0;
+    margin: 3.5rem;
+    border: 18px solid white;
+    font-family: "Open Sans", sans-serif;
   }
   .user {
-    border-radius: 10px;
-    margin: 0;
-    border-radius: 0;
-    height: 32vh;
-    padding-bottom: 0.5rem;
+    height: 40vh;
+    border-bottom-left-radius: 35px;
   }
   img {
-    height: 180px;
+    height: 32vh;
   }
   .notification {
-    padding-top: 4rem;
-    margin: 0 2.8rem;
+    margin-left: 10rem;
+    text-align: center;
   }
-  h1,
+  h1 {
+    font-size: 5.6rem;
+  }
   h2 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
   h3 {
-    padding: 2.3rem 1.2rem 1.2rem 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 4rem;
   }
 }
